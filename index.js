@@ -30,7 +30,7 @@ bot.on('message', message => {
       console.log('Bot Launched...')
 
 
-      bot.user.setStatus('dnd')
+      bot.user.setStatus('Online')
 
       bot.user.setGame('Mc-FreePvP.tk')
 
