@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
-bot.login('NDUwMzg0MDIxMDQ2ODIwOTA0.DfCetw.Wef9MhCbEzZFuhzR8g7aczwErh4');
+bot.login('BOT_TOKEN');
 
 bot.on('message', message => {
     if (message.content.startsWith('&superlindo')){
